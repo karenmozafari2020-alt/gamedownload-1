@@ -1,0 +1,12 @@
+{
+  "name": "karen-download",
+  "version": "1.0.0",
+  "description": "Simple file download server for Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
