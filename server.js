@@ -5,7 +5,7 @@ const fs = require("fs");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const FILE_NAME = "RA-GRAPHICS.zip";
+const FILE_NAME = "Meridian-0.5.0-Android.apk";
 const FILE_PATH = path.join(__dirname, "files", FILE_NAME);
 
 app.use(express.static(path.join(__dirname, "public")));
